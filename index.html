@@ -23,10 +23,8 @@ return false
  }
    
  </script>
-  <body ng-controller="MainCtrl">
-    <input type="text" ng-model="conditional_number" ng-change="search_number()"/>
-    <span ng-show="isAndroid()">Text to appear if condition is met</span>
-    <span ng-show="!isAndroid()">Text to appear if condition is not met</span>
-  </body>
-
+   <form novalidate="" class="simple-form">
+  <input name="myfield" ng-model="conditional_number" ng-minlength="5" ng-change="search_number()>
+    <span ng-show="conditional_number.length>5">Good boy!</span>
+</form>
 </html>
