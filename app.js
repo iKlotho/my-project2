@@ -4771,8 +4771,8 @@
               , bgWidth = rootWidth
               , bgHeight = bgWidth / this.$itemWrapper.data('ratio')
               , evt = $.Event('backstretch.resize', {
-  Â Â Â Â Â Â Â Â Â Â Â Â Â Â relatedTarget: this.$container[0]
-  Â Â Â Â Â Â Â Â Â Â Â Â })
+relatedTarget: this.$container[0]
+})
               , bgOffset
               , alignX = this._currentImage.alignX === undefined ? this.options.alignX : this._currentImage.alignX
               , alignY = this._currentImage.alignY === undefined ? this.options.alignY : this._currentImage.alignY;
