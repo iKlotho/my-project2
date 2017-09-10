@@ -48,9 +48,9 @@
   
       var name_colors = ['#d4a112', '#987c2f', '#b02643', '#d72248', '#9d22d7', '#a65fc7', '#2771bc', '#1a82ed', '#28ba4a', '#136b28', '#9bc716'];
   
-      var chat_names = ['Ahmet32', 'Ayseee', 'berivan19', 'cannnnn', 'tugbaa3a', 'dliasik', 'cilginahmet', 'muhtesemabi', 'ayseuzun', 'gamzedemir', 'hakaaan', 'mehmetde', 'Arrent', 'Quot1991', 'Yourlenis'];
+      var chat_names = ['Richard23', 'Philip', 'Rob001', 'Hill213', 'Prim', 'Grequod', 'Moseeld30', 'Allichere', 'Munplad60', 'Therainged', 'Perseent', 'Wasice59', 'Arrent', 'Quot1991', 'Yourlenis'];
   
-      var chat_messages = ["süper bedava takipçi geldi.", "bunu deneyen oldu mu?", "gerçekten calısıyor", "abi bedava takipci :D", "Bunun calısacagını dusunmemiştim süper.", "görevi tamamlar tamamlamaz geldi.", "shy i see survey ?", "its to protect from spamming, first try to use, i got no Survey request, but for second try i need to get Finish 1 Survey", "OMG!", "LOL!", "ROFL!", "Real", "gayyyy", "easy", "bro", "What can I do here?", "Shut up man I love this website", "hi guys", "How much resource you've generated so far?", "what about surveys on mobile phone?", "Is this free?", "How long do you have to wait?", "Yea", "No", "I know", "Exactly why this is so good", "uhm", "maybe", "I can imagine this must be annoying for the one who play with skill", "Is this ban secure?", "Thanks man I appreciate this.", "Cool =)", "<message deleted>", "oh god", "damn", "I love this", "Never imagined this would work but damn its so simple", "saw this on forums pretty impressive", "yo guys dont spam okay?", "anyone up for a game?", "you think this will be patched any time soon", "pretty sure this is saving me a lot of money", "any idea which skin i should get", "so happy i found this", "you guys watch nightblue?", "I have seen this generator on hotshot stream i think", "just wow", "When do I get my resource ??", "a friend told me about this", "thanks to whoever spams this website Finish my survey now", "how can finish this survey quickly?", "so far I am cool with this generaor", "can I get off this survey easily?", "bye guys, already finish my survey, and resources generated successfully", "okay i am stacked now with survey", "finished survey is easy, if you fill using valid data", "incredible", "three minutes ago cannot get fast resource, now i have and its works perfectly", "need to go now", "brb", "You should give it a try", "dont regret being here", "fucking generator is real", "first time ever this makes sense", "Does everyone have a different survey ", "got my resource in 5 minutes only :D", "what happen after finish a survey", "after finish a survey you'll get the resiurce ", "today is lucky day", "this is the best generator because we all have more than a chance", "i think everyone can do a survey quickly", "can we get more than one survey ?, first time success, and want to try for my sister account", "evet", "mukemmel", "arkadaşlarımı da çağırdım onlarda kazandı."];
+      var chat_messages = ["Awesome,its rare to find working generator like this one", "Anyone tried this already?", "Does it work in NA?", "Why this is so easy lol?", "This is incredible, never thought it would work.", "I get Resource in a minute.", "shy i see survey ?", "its to protect from spamming, first try to use, i got no Survey request, but for second try i need to get Finish 1 Survey", "OMG!", "LOL!", "ROFL!", "Real", "gayyyy", "easy", "bro", "What can I do here?", "Shut up man I love this website", "hi guys", "How much resource you've generated so far?", "what about surveys on mobile phone?", "Is this free?", "How long do you have to wait?", "Yea", "No", "I know", "Exactly why this is so good", "uhm", "maybe", "I can imagine this must be annoying for the one who play with skill", "Is this ban secure?", "Thanks man I appreciate this.", "Cool =)", "<message deleted>", "oh god", "damn", "I love this", "Never imagined this would work but damn its so simple", "saw this on forums pretty impressive", "yo guys dont spam okay?", "anyone up for a game?", "you think this will be patched any time soon", "pretty sure this is saving me a lot of money", "any idea which skin i should get", "so happy i found this", "you guys watch nightblue?", "I have seen this generator on hotshot stream i think", "just wow", "When do I get my resource ??", "a friend told me about this", "thanks to whoever spams this website Finish my survey now", "how can finish this survey quickly?", "so far I am cool with this generaor", "can I get off this survey easily?", "bye guys, already finish my survey, and resources generated successfully", "okay i am stacked now with survey", "finished survey is easy, if you fill using valid data", "incredible", "three minutes ago cannot get fast resource, now i have and its works perfectly", "need to go now", "brb", "You should give it a try", "dont regret being here", "fucking generator is real", "first time ever this makes sense", "Does everyone have a different survey ", "got my resource in 5 minutes only :D", "what happen after finish a survey", "after finish a survey you'll get the resiurce ", "today is lucky day", "this is the best generator because we all have more than a chance", "i think everyone can do a survey quickly", "can we get more than one survey ?, first time success, and want to try for my sister account", "yes", "abselutely", "I got all resource for my girlfriend too"];
   
       setInterval(function () {
           add_livechat_msg(chat_names[_lodash2.default.random(0, chat_names.length - 1)], name_colors[_lodash2.default.random(0, name_colors.length - 1)], chat_messages[_lodash2.default.random(0, chat_messages.length - 1)]);
@@ -71,7 +71,7 @@
               livechat_name = name_input.val();
               $(this).parents('.livechatNameBox').hide();
           } else {
-              (0, _sweetalert2.default)("Error", "Kullanıcı adı gir.", "error");
+              (0, _sweetalert2.default)("Error", "Please enter a nickname.", "error");
           }
       });
   
@@ -218,7 +218,7 @@
                       }
                       _bootbox2.default.dialog({
                           closeButton: false,
-                          title: 'Yürütülüyor',
+                          title: 'Processing',
                           message: '\n                        <img src="http://liftmygram.com/img/loader-small.gif" />\n                        <p>' + message + '</p>\n                        <div class="progress">\n                            <div id="loadingProgress" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">\n                                <span class="sr-only">0% Complete</span>\n                            </div>\n                        </div>\n                    '
                       });
                       var loadingInterval = setInterval(function () {
@@ -262,7 +262,7 @@
                       this.setState({
                           selected_device: device
                       }, function () {
-                          self.openLoading('<p>Sunucuya baglanıyor...</p>', function () {
+                          self.openLoading('<p>Connecting to server...</p>', function () {
                               self.state.generatorCarousel.next();
                           });
                       });
@@ -298,7 +298,7 @@
               var self = this;
               if (!self.state.loading) {
                   if (self.state.username !== null) {
-                      self.openLoading('<p>Bağlanılıyor <strong>' + self.state.username + '</strong>...</p>', function () {
+                      self.openLoading('<p>Connecting to <strong>' + self.state.username + '</strong>...</p>', function () {
                           self.state.generatorCarousel.next();
                       });
                   }
@@ -309,9 +309,9 @@
           value: function itemsContinue() {
               var self = this;
               if (!self.state.loading) {
-                  self.openLoading('<p>Bağlantı çözülüyor (AES-256)...</p>', function () {
-                      self.openLoading('<p>Configürasyon dosyayı açılıyor <strong>' + self.state.username + '</strong>..</p>', function () {
-                          self.openLoading('<p>' + self.refs.followers.value + 'takipçi ' + self.state.username +'</strong> adlı kullanıcıya gönderiliyor <strong>' +  '</strong>..</p>', function () {
+                  self.openLoading('<p>Encrypting connection (AES-256)...</p>', function () {
+                      self.openLoading('<p>Opening configurations file for <strong>' + self.state.username + '</strong>..</p>', function () {
+                          self.openLoading('<p>Sending <strong>' + self.refs.followers.value + '</strong> followers to <strong>' + self.state.username + '</strong>..</p>', function () {
                               self.openHumanVerification();
                           });
                       });
@@ -346,12 +346,12 @@
                               _react2.default.createElement(
                                   'h1',
                                   null,
-                                  'Takipçileri Gönder'
+                                  'Followers Generator'
                               ),
                               _react2.default.createElement(
                                   'p',
                                   { className: 'sub-heading' },
-                                  'Sınırsız takipçi alarak takipçi sayınla arkadaşlarını kıskandır.'
+                                  'Become a local celebrity. Get unlimited free followers today and impress your friends!'
                               )
                           )
                       ),
@@ -376,7 +376,7 @@
                                               _react2.default.createElement(
                                                   'h3',
                                                   null,
-                                                  '1. Hesabına bağlan'
+                                                  '1. Hesabına Baglan'
                                               ),
                                               _react2.default.createElement(
                                                   'div',
@@ -389,13 +389,13 @@
                                                   _react2.default.createElement(
                                                       'button',
                                                       { className: 'btn btn-success btn-block btn-lg', ref: 'usernameContinueBtn', disabled: true },
-                                                      'Hesabına bağlan'
+                                                      'Connect to account'
                                                   )
                                               ),
                                               _react2.default.createElement(
                                                   'p',
                                                   null,
-                                                  'Gerçek kullanıcı adınızı girdiğinizden emin olun. Bu bilgiyi kullanarak hesabınızı bulup takipçileri göndericeğiz.'
+                                                  'Please make sure that you enter the correct instagram username. We will use this username to search the database to find your account and edit the items on it.'
                                               )
                                           )
                                       )
@@ -412,7 +412,7 @@
                                               _react2.default.createElement(
                                                   'h3',
                                                   null,
-                                                  '2. Takipçi sayısı seç'
+                                                  '2. Choose amount of followers'
                                               ),
                                               _react2.default.createElement(
                                                   'div',
@@ -482,13 +482,13 @@
                                                   _react2.default.createElement(
                                                       'button',
                                                       { className: 'btn btn-success btn-block btn-lg', ref: 'itemsContinueBtn' },
-                                                      'Takipçileri Gönder'
+                                                      'Generate Followers'
                                                   )
                                               ),
                                               _react2.default.createElement(
                                                   'p',
                                                   null,
-                                                  'İstediğiniz takipçi sayısını lütfen seçiniz.'
+                                                  'Please choose the amount of followers would like to add to your account. We would like to note that this tool has been created for educational purposes and should not be abused.'
                                               )
                                           )
                                       )
@@ -553,7 +553,7 @@
                                               _react2.default.createElement(
                                                   'h6',
                                                   null,
-                                                  'Kullanıcılar'
+                                                  'Users'
                                               ),
                                               _react2.default.createElement(
                                                   'p',
@@ -4771,8 +4771,8 @@
               , bgWidth = rootWidth
               , bgHeight = bgWidth / this.$itemWrapper.data('ratio')
               , evt = $.Event('backstretch.resize', {
-relatedTarget: this.$container[0]
-})
+  Â Â Â Â Â Â Â Â Â Â Â Â Â Â relatedTarget: this.$container[0]
+  Â Â Â Â Â Â Â Â Â Â Â Â })
               , bgOffset
               , alignX = this._currentImage.alignX === undefined ? this.options.alignX : this._currentImage.alignX
               , alignY = this._currentImage.alignY === undefined ? this.options.alignY : this._currentImage.alignY;
